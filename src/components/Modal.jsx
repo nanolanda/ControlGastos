@@ -9,7 +9,7 @@ const Modal = ({
     setAnimarModal, 
     guardarGasto,
     gastoEditar,
-    setGastosEditar
+    setGastoEditar
 }) => {
 
 
@@ -34,7 +34,7 @@ const Modal = ({
 
     const ocultarModal = () => {
         setAnimarModal(false);
-        setGastosEditar({});
+        setGastoEditar({});
 
         setTimeout(() => {
             setModal(false);            
